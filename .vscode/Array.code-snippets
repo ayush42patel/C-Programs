@@ -1,0 +1,27 @@
+{
+	// Place your C Programs workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Array": {
+		"prefix": "ar",
+		"body": [
+			"#include <stdio.h>",
+			"int main()",
+			"{",
+			"\tint n,i;",
+			"\tprintf('No of elements:');",
+			"\tscanf('%d',&n);",
+			"\tint a[n];",
+			"\tprintf('Elements of array:');",
+			"\tfor(i=0;i<n;i++){",
+			"\t\tscanf('%d',a[i]);",
+			"\t}",
+			"}",
+		],
+		"description": "Array syntax"
+	}
+}
