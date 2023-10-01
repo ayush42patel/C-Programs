@@ -1,0 +1,1 @@
+fgets(w,sizeof(w),stdin);
