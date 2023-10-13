@@ -42,12 +42,10 @@ void reading(){
 
 int main(){
     int choice;
-    printf("|~~~~~~~~~~~~~~~~~~Text File~~~~~~~~~~~~~~~~~~~~~|\n");
-    printf("|                                                |\n");
-    printf("|            1.Writing in a text file            |\n");
-    printf("|            2.Reading in a text file            |\n");
-    printf("|                                                |\n");
-    printf("|~~~~~~~~~~~~~~~~~~~~Exit~~~~~~~~~~~~~~~~~~~~~~~~|\n");
+    printf("Text File\n");
+    printf("1.Writing in a text file\n");
+    printf("2.Reading in a text file\n");
+    printf("Exit\n");
     printf("Enter Choice:");
     scanf("%d",&choice);
     if(choice==1){

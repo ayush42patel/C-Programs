@@ -1,6 +1,5 @@
- #include <stdio.h>
-void multiply()
-{
+#include <stdio.h>
+void multiply(){
     int r,c,i,j,k;
     printf("enter the number of row=");
     scanf("%d", &r);
@@ -70,11 +69,10 @@ void addition(){
             add[i][j] =a[i][j]+b[i][j];
             printf("%d\t", add[i][j]);
         }
-        printf("\n");  
+        printf("\n");
     }
 }
-int main()
-{
+int main(){
     int m;
     printf("Enter Value of m:");
     scanf("%d",&m);
