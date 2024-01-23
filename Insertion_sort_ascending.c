@@ -24,6 +24,13 @@ int main(){
     for (int i = 0; i < b; i++){
         scanf("%d",&c[i]);   
     }
+
+    printf("Inserted array:\n");
+    for(int j=0;j<b;j++){
+        printf("%d\t",c[j]);
+    }
+    printf("\n");
+
     printf("Sorted array:\n");
     insertionsort(c,b);
     return 0;

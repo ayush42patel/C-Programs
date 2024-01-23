@@ -26,6 +26,7 @@ int main(){
     for (i = 0; i < x; i++){
         printf("%d\t",c[i]);
     }
+    printf("\n");
     selectionsort(c,x);
     printf("After sorting:");
     for (i = 0; i < x; i++){
